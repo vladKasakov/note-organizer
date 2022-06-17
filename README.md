@@ -1,4 +1,4 @@
-# Noteorganizer
+# Note organizer
 
 - adding, editing, deleting notes
 - search by tags
