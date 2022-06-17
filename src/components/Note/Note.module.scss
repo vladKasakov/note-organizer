@@ -1,0 +1,33 @@
+.note {
+  min-width: 200px;
+  max-width: 30%;
+  min-height: fit-content;
+  border-radius: var(--radii);
+  padding: 0.5rem 1rem;
+  box-shadow: var(--shadow);
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin: 0;
+      width: 90%;
+    }
+  }
+  p {
+    width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    overflow: hidden;
+  }
+  span {
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: rgba($color: #000000, $alpha: 0.7);
+  }
+}

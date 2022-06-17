@@ -1,0 +1,49 @@
+.tag-adder {
+  position: absolute;
+  cursor: pointer;
+  right: 3rem;
+  top: 2rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: var(--clr-primary);
+  fill: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    width: 60%;
+    height: 60%;
+  }
+
+  .menu {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    cursor: default;
+    position: absolute;
+    right: 0 + 50%;
+    top: 0 + 50%;
+    width: 180px;
+    max-height: 60vh;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: var(--radii);
+    padding: 1rem;
+
+    .tag-addform {
+      display: flex;
+      margin-bottom: 1rem;
+
+      input {
+        width: 80%;
+      }
+    }
+
+    .tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+    }
+  }
+}

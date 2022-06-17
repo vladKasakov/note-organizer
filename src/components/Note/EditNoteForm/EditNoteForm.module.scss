@@ -1,0 +1,77 @@
+.modal {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($color: #000000, $alpha: 0.2);
+
+  .content {
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    border-radius: var(--radii);
+    width: 70%;
+    height: 80%;
+
+    .form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      width: 90%;
+
+      input[type='text'] {
+        align-self: flex-start;
+        width: 80%;
+        height: 3rem;
+        font-size: 1.5rem;
+        line-height: 2;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+      }
+
+      textarea {
+        scrollbar-width: none;
+        resize: none;
+        font-size: 1.3rem;
+        line-height: 2;
+        width: 100%;
+        height: 200px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+      }
+      .text-field{
+        word-wrap: break-word;
+        scrollbar-width: none;
+        resize: none;
+        font-size: 1.3rem;
+        line-height: 2;
+        width: 100%;
+        height: 200px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+      }
+    }
+
+    .panel {
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 1rem;
+    }
+  }
+}

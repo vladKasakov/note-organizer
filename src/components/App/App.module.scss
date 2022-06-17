@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  background-color: var(--clr-primary);
+  color: white;
+  z-index: 1;
+  box-shadow: var(--shadow);
+}
+
+.add-btn {
+  z-index: 1;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 7rem;
+  height: 7rem;
+  background-color: rgba(4, 170, 109);
+  border: none;
+  color: white;
+  font-size: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}

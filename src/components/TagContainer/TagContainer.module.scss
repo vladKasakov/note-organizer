@@ -1,0 +1,14 @@
+.tag-container {
+  width: 90%;
+  margin: 0 auto;
+  scrollbar-width: none;
+  font-size: 0.8rem;
+  overflow: scroll;
+  display: flex;
+  gap: 0.5rem;
+  border-radius: var(--radii);
+}
+
+.plug {
+  height: 25px;
+}

@@ -1,0 +1,33 @@
+.edit-menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+
+  .toggle {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .settings {
+    position: absolute;
+    right: 0 + 100%;
+    top: 0 + 100%;
+    background-color: white;
+    border-radius: var(--radii);
+    box-shadow: var(--shadow);
+    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+
+    & > button {
+      cursor: pointer;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid black;
+      background-color: white;
+
+      &:hover {
+        color: var(--clr-primary);
+      }
+    }
+  }
+}
